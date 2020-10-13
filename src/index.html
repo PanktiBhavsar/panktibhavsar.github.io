@@ -1,13 +1,32 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>BootstrapSidebar</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+
+  </style>
 </head>
+
 <body>
+
+  <script type="text/javascript">
+    function openFunction() {
+      document.getElementById("menu").style.width = "300px";
+      document.getElementById("mainbox").style.marginLeft = "300px";
+      // document.getElementById("mainbox").innerHTML = "Click on cross element and close menu";
+    }
+    function closeFunction() {
+      document.getElementById("menu").style.width = "0px";
+      document.getElementById("mainbox").style.marginLeft = "0px";
+      // document.getElementById("mainbox").style.innerHTML = "&#9776; Open";
+    }
+  </script>
   <app-root></app-root>
 </body>
+
 </html>

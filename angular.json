@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Bootstrap-sidebar"
+    }
+  },
+  "defaultProject": "Bootstrap-sidebar",
+  "cli": {
+    "analytics": false
+  }
 }
